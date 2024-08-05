@@ -10,9 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "21bce132_shipmnts_task": "file:",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "document": "^0.4.7",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongodb": "^6.8.0"
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2"
   }
 }
