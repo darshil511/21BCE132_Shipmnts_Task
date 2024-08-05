@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
     res.sendFile(`${process.env.PROJECT_PATH}` + "index.html")
 })
 
-app.post('/example', (req, res) => {
+app.post('/create', (req, res) => {
     res.send(`File name is: ${req.body.fname}.`);
     console.log(req.body.fname)
     var writeStream = fs.createWriteStream(`${req.body.fname}`);
